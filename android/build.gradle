@@ -25,6 +25,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace 'com.zenon.camera_pro' // ✅ ADD THIS LINE
     compileSdkVersion 28
 
     defaultConfig {
